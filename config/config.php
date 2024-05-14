@@ -15,7 +15,7 @@ $pass = "";
 $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$secret_key = "sk_test_51PBfWQRsYLjWICCkNkNgRIOAc2PuxuQg87FDpXKUxVUv7VlJag9yy0vs7yhGNfx35YTzdEdhmr8gImD6g5vVyxD1005MHnyQT1";
+$secret_key = "paste your secret key here";
 
 // if ($conn) {
 //     echo "worked successfully";
